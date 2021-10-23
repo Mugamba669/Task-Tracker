@@ -16,12 +16,13 @@
          @toggle-remainder="toggle"
          :tasks="tasks"/>
       </div>
+    </div>
 </template>
 
 <script>
-import Header from "./components/Header"
-import Tasks from "./components/Tasks/Tasks"
-import AddTask from "./components/AddTask/AddTask"
+import Header from "../components/Header"
+import Tasks from "../components/Tasks/Tasks"
+import AddTask from "../components/AddTask/AddTask"
 export default {
     name: 'Home',
        data(){
@@ -78,7 +79,7 @@ export default {
                     },
                     body:JSON.stringify(task)
                 });
-              this.tasks.push(task);
+              this.tasks = [task,...this.tasks];
 
             }
    },
@@ -91,7 +92,7 @@ export default {
 }
 </script>
 
-<style lang="">
+<style lang="css" scoped>
      .taskTracker{
       margin: 10px;
       width:400px;

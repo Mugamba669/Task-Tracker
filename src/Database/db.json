@@ -1,69 +1,9 @@
 {
   "Tasks": [
     {
-      "id": 9048,
+      "id": 6999,
       "remainder": false,
       "taskname": "Coding",
-      "period": "2021-10-23"
-    },
-    {
-      "id": 6022,
-      "remainder": false,
-      "taskname": "Digging",
-      "period": "2021-10-28"
-    },
-    {
-      "id": 9075,
-      "remainder": false,
-      "taskname": "Washing Clothes",
-      "period": "2021-10-28"
-    },
-    {
-      "id": 3445,
-      "remainder": false,
-      "taskname": "Programming ",
-      "period": "2021-10-29"
-    },
-    {
-      "id": 2498,
-      "remainder": false,
-      "taskname": "Watch Old Movie",
-      "period": "2021-10-23"
-    },
-    {
-      "id": 7424,
-      "remainder": false,
-      "taskname": "Listen to samons",
-      "period": "2021-10-23"
-    },
-    {
-      "id": 246,
-      "remainder": false,
-      "taskname": "Move on",
-      "period": "2021-10-06"
-    },
-    {
-      "id": 1682,
-      "remainder": false,
-      "taskname": "Debug code",
-      "period": "2021-10-23"
-    },
-    {
-      "id": 9605,
-      "remainder": false,
-      "taskname": "Piggery ",
-      "period": "2021-10-29"
-    },
-    {
-      "id": 6513,
-      "remainder": false,
-      "taskname": "End Of Sem",
-      "period": "2021-12-30"
-    },
-    {
-      "id": 198,
-      "remainder": true,
-      "taskname": "Taking banana pills",
       "period": "2021-10-23"
     }
   ]
